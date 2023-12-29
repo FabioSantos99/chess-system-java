@@ -33,7 +33,6 @@ public class Program {
 				System.out.println();
 				System.out.print("Target: ");
 				ChessPosition target = UI.readChessPosition(sc);
-				UI.clearScreen();
 			
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 				
